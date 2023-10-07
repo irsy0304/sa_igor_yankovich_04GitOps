@@ -1,0 +1,15 @@
+name: Running a python script hello.py
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Run script
+      run: python hello.py
