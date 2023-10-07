@@ -1,4 +1,7 @@
-#python string
+#python String Concatenation
+
+
+
 def concatenate_strings(a, b, c):
-    new_string = f'{Hello}{DevOp}{s!}'
+    new_string = f'{a}{b}{c}'
     return new_string
